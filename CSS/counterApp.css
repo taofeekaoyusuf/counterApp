@@ -1,0 +1,66 @@
+body {
+    color: rgb(4, 14, 132);
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    background-image: url("../IMAGES/counterApp/station.jpg");
+    background-size: cover;
+}
+
+h1{
+    margin: 15px auto;
+    width: 950px;
+    font-weight: bolder;
+    background: rgb(220, 203, 159);  
+    border-radius: 5px;    
+}
+
+p {
+    margin: 20px auto;
+    width: 1000px;
+    color: black;
+    font-weight: bolder;
+    background: rgb(191, 233, 237);  
+    border-radius: 5px; 
+}
+
+button {
+    border: none;
+    width: 200px;
+    color: white;
+    padding: 10px 0;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#count-el {
+    color: blueviolet;
+    font-size: 75px;
+}
+
+#increment-btn {
+    background: darkred;
+    box-shadow: 0 0 20px lightcoral;
+}
+
+#increment-btn:hover {
+    box-shadow: 0 0 30px rgb(228, 52, 52);
+}
+
+#save-btn {
+    background: darkgreen;
+    box-shadow: 0 0 20px rgb(91, 152, 60);
+}
+
+#save-btn:hover {
+    box-shadow: 0 0 30px rgb(17, 110, 17);
+}
+
+#save-el {
+    color: brown;
+    font-weight: bolder;
+    background: rgb(229, 166, 6);
+    border-radius: 5px;
+}
